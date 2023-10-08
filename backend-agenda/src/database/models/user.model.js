@@ -6,7 +6,7 @@ const UserSchema = {
     id:{
         type:DataTypes.INTEGER,
         autoIncrement: true,
-        primaKey: true
+        primaryKey: true
     },
     name:{
         type:DataTypes.STRING,
